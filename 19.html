@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://earthsky.org/upl/2023/06/Sunset-Shells-Christy-Mandeville-Feb-9-2023.jpg') no-repeat center/cover;
+        }
+        .container {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            color: red;
+            cursor: crosshair;
+        }
+        .layer {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 200px;
+            height: 100px;
+            background: rgba(255, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Styled Web Page</h1>
+        <p>Check <a href="#">this link</a> for styling.</p>
+        <div class="layer"></div>
+    </div>
+</body>
+</html>
